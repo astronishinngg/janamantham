@@ -31,7 +31,7 @@ class LLMService:
         if LOCAL_LLM_URL:
             try:
                 from openai import OpenAI
-                local_client = OpenAI(base_url=LOCAL_LLM_URL, api_key="lm-studio")
+                local_client = OpenAI(base_url=LOCAL_LLM_URL, api_key="lm-studio", timeout=1.5)
                 # Quick health check
                 models = local_client.models.list()
                 client = local_client

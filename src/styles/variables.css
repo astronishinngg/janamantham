@@ -1,0 +1,11 @@
+/* src/styles/variables.css */
+:root {
+  --color-navy: #0B2E59;
+  --color-orange: #F57C00;
+  --color-green: #2E7D32;
+  --color-white: #FFFFFF;
+  --color-surface: #F8FAFC;
+  --color-border: #E2E8F0;
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+}

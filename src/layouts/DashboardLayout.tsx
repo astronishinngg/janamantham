@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { ChatbotWidget } from '@/components/shared/ChatbotWidget';
 
 export const DashboardLayout: React.FC = () => {
   return (
@@ -26,6 +27,9 @@ export const DashboardLayout: React.FC = () => {
             <Outlet />
           </div>
         </main>
+        
+        {/* Chatbot floating widget */}
+        <ChatbotWidget />
         
         <div className="print:hidden">
           <Footer />

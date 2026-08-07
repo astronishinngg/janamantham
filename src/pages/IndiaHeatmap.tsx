@@ -64,6 +64,35 @@ const stateGeoData: StateData[] = [
   { id: 'ML', name: 'Meghalaya', coords: [25.4670, 91.3662], complaints: 710, recurring: 90, riskScore: 10, riskLevel: 'Low', topDept: 'Public Health', topCategory: 'Sub-center Access', radius: 6, color: '#1E8E3E' }
 ];
 
+// Mapping of States to actual Districts
+const stateDistrictsMap: Record<string, string[]> = {
+  'Maharashtra': ['Pune', 'Mumbai Suburban', 'Thane', 'Nagpur', 'Nashik', 'Aurangabad'],
+  'Uttar Pradesh': ['Lucknow', 'Kanpur Nagar', 'Varanasi', 'Prayagraj', 'Agra', 'Meerut'],
+  'Gujarat': ['Ahmedabad', 'Surat', 'Vadodara', 'Rajkot', 'Gandhinagar'],
+  'Karnataka': ['Bangalore', 'Mysore', 'Hubli', 'Mangalore', 'Belgaum'],
+  'Bihar': ['Gaya', 'Patna', 'Muzaffarpur', 'Bhagalpur', 'Darbhanga'],
+  'Delhi NCR': ['Central Delhi', 'New Delhi', 'South Delhi', 'East Delhi', 'North Delhi'],
+  'Tamil Nadu': ['Chennai', 'Coimbatore', 'Madurai', 'Trichy', 'Salem'],
+  'Rajasthan': ['Jaipur', 'Jodhpur', 'Udaipur', 'Kota', 'Ajmer'],
+  'Madhya Pradesh': ['Bhopal', 'Indore', 'Gwalior', 'Jabalpur', 'Ujjain'],
+  'West Bengal': ['Kolkata', 'Howrah', 'Darjeeling', 'Asansol', 'Siliguri'],
+  'Telangana': ['Hyderabad', 'Warangal', 'Nizamabad', 'Karimnagar'],
+  'Andhra Pradesh': ['Visakhapatnam', 'Vijayawada', 'Guntur', 'Tirupati'],
+  'Kerala': ['Trivandrum', 'Kochi', 'Kozhikode', 'Thrissur'],
+  'Punjab': ['Ludhiana', 'Amritsar', 'Jalandhar', 'Patiala'],
+  'Haryana': ['Gurugram', 'Faridabad', 'Panipat', 'Ambala'],
+  'Odisha': ['Bhubaneswar', 'Cuttack', 'Rourkela', 'Puri'],
+  'Assam': ['Guwahati', 'Dibrugarh', 'Silchar', 'Jorhat'],
+  'Jharkhand': ['Ranchi', 'Jamshedpur', 'Dhanbad', 'Bokaro'],
+  'Chhattisgarh': ['Raipur', 'Bhilai', 'Bilaspur', 'Korba'],
+  'Uttarakhand': ['Dehradun', 'Haridwar', 'Nainital', 'Rishikesh'],
+  'Himachal Pradesh': ['Shimla', 'Dharamshala', 'Manali', 'Solan'],
+  'Jammu & Kashmir': ['Srinagar', 'Jammu', 'Anantnag', 'Baramulla'],
+  'Goa': ['Panaji', 'Margao', 'Vasco da Gama', 'Mapusa'],
+  'Tripura': ['Agartala', 'Udaipur', 'Dharmanagar'],
+  'Meghalaya': ['Shillong', 'Tura', 'Jowai']
+};
+
 const stateChartData = [
   { name: 'Agri', value: 4500 },
   { name: 'Bank', value: 3200 },
@@ -114,6 +143,19 @@ const MapController = ({ center, zoom }: { center: [number, number], zoom: numbe
 export const IndiaHeatmap: React.FC = () => {
   const [selectedState, setSelectedState] = useState<StateData | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [selectedStateFilter, setSelectedStateFilter] = useState('All States');
+
+  const handleStateFilterChange = (stateName: string) => {
+    setSelectedStateFilter(stateName);
+    if (stateName === 'All States') {
+      setSelectedState(null);
+    } else {
+      const matched = stateGeoData.find(st => st.name === stateName);
+      if (matched) {
+        setSelectedState(matched);
+      }
+    }
+  };
 
   return (
     <motion.div variants={containerVariants} initial="hidden" animate="visible" className="space-y-6 pb-10">
@@ -157,20 +199,98 @@ export const IndiaHeatmap: React.FC = () => {
       </motion.div>
 
       {/* 2. SMART FILTER PANEL */}
-      <motion.div variants={itemVariants} className="bg-white p-4 rounded-xl border border-[#E2E8F0] shadow-sm flex items-center gap-4 overflow-x-auto hide-scrollbar">
+      <motion.div variants={itemVariants} className="bg-white p-4 rounded-xl border border-[#E2E8F0] shadow-sm flex flex-wrap items-center gap-4">
         <div className="flex items-center gap-2 text-[#64748B] font-semibold text-sm pl-2 pr-4 border-r border-[#E2E8F0] shrink-0">
           <Filter className="w-4 h-4" /> Parameters
         </div>
         
-        {['All States', 'All Districts', 'Dept: Agriculture', 'Category: Any', 'Priority: Critical', 'Last 7 Days', 'Risk: > 80'].map((filter, i) => (
-          <select key={i} className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer shrink-0 appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]">
-            <option>{filter}</option>
-          </select>
-        ))}
-        
-        <div className="ml-auto pl-4 flex gap-2 shrink-0">
-          <button className="text-sm font-semibold text-[#0B2E59] hover:underline px-2">Reset</button>
-          <button className="text-sm font-semibold bg-[#0B2E59] text-white px-4 py-1.5 rounded-lg hover:bg-[#082244]">Apply</button>
+        {/* State Filter */}
+        <select 
+          value={selectedStateFilter}
+          onChange={(e) => handleStateFilterChange(e.target.value)}
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="All States">All States</option>
+          {stateGeoData.map(st => <option key={st.id} value={st.name}>{st.name}</option>)}
+        </select>
+
+        {/* District Filter */}
+        <select 
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="All Districts">All Districts</option>
+          {selectedStateFilter !== 'All States' && stateDistrictsMap[selectedStateFilter] ? (
+            stateDistrictsMap[selectedStateFilter].map(dist => (
+              <option key={dist} value={dist}>{dist}</option>
+            ))
+          ) : (
+            // Fallback: show all districts across all states
+            Object.values(stateDistrictsMap).flat().map(dist => (
+              <option key={dist} value={dist}>{dist}</option>
+            ))
+          )}
+        </select>
+
+        {/* Department Filter */}
+        <select 
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="All Departments">All Departments</option>
+          <option value="Agriculture">Agriculture (PM-KISAN)</option>
+          <option value="Banking & Finance">Banking & Finance</option>
+          <option value="Water Resources">Water Resources</option>
+          <option value="Power & Electricity">Power & Electricity</option>
+          <option value="Public Works">Public Works (PWD)</option>
+          <option value="Telecom">Telecom</option>
+          <option value="Food & Supplies">Food & Supplies (PDS)</option>
+          <option value="Rural Development">Rural Development</option>
+        </select>
+
+        {/* Category Filter */}
+        <select 
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="All Categories">All Categories</option>
+          <option value="Scheme Disbursement">Scheme Disbursement</option>
+          <option value="Financial Fraud">Financial Fraud</option>
+          <option value="Pipeline Leakage">Pipeline Leakage</option>
+          <option value="Billing Dispute">Billing Dispute</option>
+          <option value="Road Potholes">Road Potholes</option>
+          <option value="Service Outage">Service Outage</option>
+          <option value="Ration Distribution">Ration Distribution</option>
+        </select>
+
+        {/* Priority Filter */}
+        <select 
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="All Priorities">All Priorities</option>
+          <option value="Critical">Critical</option>
+          <option value="High">High</option>
+          <option value="Moderate">Moderate</option>
+          <option value="Low">Low</option>
+        </select>
+
+        {/* Timeline Filter */}
+        <select 
+          className="bg-[#F8FAFC] border border-[#E2E8F0] text-[#1E293B] text-sm font-medium rounded-lg px-3 py-1.5 outline-none hover:border-[#0B2E59]/50 transition-colors cursor-pointer appearance-none pr-8 relative bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%2364748B%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[position:right_8px_center]"
+        >
+          <option value="Last 7 Days">Last 7 Days</option>
+          <option value="Last 30 Days">Last 30 Days</option>
+          <option value="Last Quarter">Last Quarter</option>
+          <option value="All Time">All Time</option>
+        </select>
+
+        <div className="ml-auto flex gap-2 shrink-0">
+          <button 
+            onClick={() => setSelectedStateFilter('All States')}
+            className="text-sm font-semibold text-[#0B2E59] hover:underline px-2"
+          >
+            Reset
+          </button>
+          <button className="text-sm font-semibold bg-[#0B2E59] text-white px-4 py-1.5 rounded-lg hover:bg-[#082244]">
+            Apply
+          </button>
         </div>
       </motion.div>
 

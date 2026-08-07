@@ -4,7 +4,7 @@ WORKDIR /frontend
 
 # Copy frontend package manifest and install dependencies
 COPY package*.json ./
-RUN npm ci
+RUN npm install --legacy-peer-deps
 
 # Copy React code and build static assets
 COPY . .

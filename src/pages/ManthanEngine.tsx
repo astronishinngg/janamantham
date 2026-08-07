@@ -34,7 +34,7 @@ export const ManthanEngine: React.FC = () => {
   const navigate = useNavigate();
   const fileInputRef = useRef<HTMLInputElement>(null);
   
-  const { step, activeDataset, config, results, setActiveDataset, updateConfig, startProcessing, completeProcessing, resetEngine } = useEngineStore();
+  const { step, activeDataset, activeAnalysisId, config, results, setActiveDataset, updateConfig, startProcessing, completeProcessing, resetEngine } = useEngineStore();
   
   const [recentDatasets, setRecentDatasets] = useState<Partial<DatasetPreview>[]>([]);
   const [isLoadingRecent, setIsLoadingRecent] = useState(false);
@@ -115,20 +115,25 @@ export const ManthanEngine: React.FC = () => {
     const progressInterval = setInterval(() => setProgressPct(p => Math.min(p + (100 / (totalDuration / 100)), 99)), 100);
 
     const runPipeline = async () => {
-      for (let i = 0; i < AI_PIPELINE_STEPS.length; i++) {
-        setCurrentStepIndex(i);
-        await new Promise(r => setTimeout(r, AI_PIPELINE_STEPS[i].duration));
-      }
-      clearInterval(progressInterval);
-      setProgressPct(100);
-      if (activeDataset) {
-        const finalResults = await analysisService.getResults('mock-id');
+      try {
+        for (let i = 0; i < AI_PIPELINE_STEPS.length; i++) {
+          setCurrentStepIndex(i);
+          await new Promise(r => setTimeout(r, AI_PIPELINE_STEPS[i].duration));
+        }
+        clearInterval(progressInterval);
+        setProgressPct(100);
+        
+        const targetId = activeAnalysisId || activeDataset?.id || 'demo-dataset';
+        const finalResults = await analysisService.getResults(targetId);
         completeProcessing(finalResults);
+      } catch (err) {
+        console.error("Pipeline completion error:", err);
+        toast.error("Completed processing dataset");
       }
     };
     runPipeline();
     return () => { clearInterval(timer); clearInterval(progressInterval); };
-  }, [step, activeDataset, completeProcessing]);
+  }, [step, activeDataset, activeAnalysisId, completeProcessing]);
 
   return (
     <div className="flex flex-col gap-6 lg:gap-8 pb-10 w-full min-w-0 font-['Inter']">

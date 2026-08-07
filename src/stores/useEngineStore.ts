@@ -41,7 +41,7 @@ export const useEngineStore = create<EngineState>()(
       results: null,
 
       setStep: (step) => set({ step }),
-      setActiveDataset: (dataset) => set({ activeDataset: dataset, step: dataset ? 'PREVIEW' : 'IDLE' }),
+      setActiveDataset: (dataset) => set({ activeDataset: dataset, step: dataset ? 'PREVIEW' : 'IDLE', activeAnalysisId: null, results: null }),
       updateConfig: (updates) => set((state) => ({ config: { ...state.config, ...updates } })),
       startProcessing: (analysisId) => set({ activeAnalysisId: analysisId, step: 'PROCESSING' }),
       completeProcessing: (results) => set({ results, step: 'COMPLETED' }),
@@ -49,7 +49,7 @@ export const useEngineStore = create<EngineState>()(
     }),
     {
       name: 'janamanthan-engine-state',
-      partialize: (state) => ({ activeDataset: state.activeDataset, config: state.config, results: state.results, step: state.step }),
+      partialize: (state) => ({ activeDataset: state.activeDataset, activeAnalysisId: state.activeAnalysisId, config: state.config, results: state.results, step: state.step }),
     }
   )
 );

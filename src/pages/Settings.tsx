@@ -70,8 +70,9 @@ export const Settings: React.FC = () => {
 
   const handleLogout = () => {
     toast.success('Logged out securely');
+    localStorage.removeItem('jm_authenticated');
+    localStorage.removeItem('jm_user');
     clearUser();
-    navigate(ROUTES.LOGIN);
   };
 
   return (

@@ -1,0 +1,251 @@
+Grievance_ID,Department,Location,Date,Description,Status,Resolution_Days
+GRV-2026001,Public Transport & Traffic,Ward 2 (Civil Lines),2026-07-19,City bus route 45 consistently running 40 minutes late during morning peak hours.,Resolved,13.4
+GRV-2026002,Water & Sanitation,Ward 4 (Indiranagar),2026-07-09,No water supply for last 3 days in Ward 12 residential block.,Resolved,3.5
+GRV-2026003,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-28,Damaged traffic light junction box causing signal blackout during peak hours.,In Progress,11.1
+GRV-2026004,Electricity & Power,Ward 8 (Station Road),2026-07-26,Sparking electrical transformer pole posing fire hazard near residential area.,Open,18
+GRV-2026005,Public Transport & Traffic,Ward 8 (Station Road),2026-07-13,Overcrowding and insufficient bus frequency during evening office rush hours.,Resolved,1.9
+GRV-2026006,Water & Sanitation,Ward 21 (West Suburbs),2026-07-26,Contaminated drinking water with brown sediment coming out of tap in household.,Resolved,10.5
+GRV-2026007,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-12,Damaged traffic light junction box causing signal blackout during peak hours.,Open,20
+GRV-2026008,Water & Sanitation,Ward 15 (North Extension),2026-07-04,Illegal water pipeline connection causing pressure drop across sector 4.,In Progress,13.0
+GRV-2026009,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-25,Auto-rickshaws charging extra fare and refusing meter near railway station.,Pending Inspection,6
+GRV-2026010,Roads & Infrastructure,Ward 8 (Station Road),2026-07-30,Road construction work left abandoned without warning barricades or signs.,In Progress,6.4
+GRV-2026011,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-02,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,11.6
+GRV-2026012,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-10,Sparking electrical transformer pole posing fire hazard near residential area.,Open,18
+GRV-2026013,Roads & Infrastructure,Ward 8 (Station Road),2026-07-26,Damaged traffic light junction box causing signal blackout during peak hours.,In Progress,10.6
+GRV-2026014,Electricity & Power,Ward 15 (North Extension),2026-07-15,High voltage fluctuation damaging home electrical appliances in neighborhood.,Open,24
+GRV-2026015,Public Transport & Traffic,Ward 8 (Station Road),2026-07-04,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,8.6
+GRV-2026016,Public Transport & Traffic,Ward 15 (North Extension),2026-07-24,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,8.2
+GRV-2026017,Waste & Sanitation,Ward 9 (Industrial Area),2026-07-09,Open dumping of hotel food waste on empty plot creating health hazard.,In Progress,10.6
+GRV-2026018,Electricity & Power,Ward 15 (North Extension),2026-07-11,Sparking electrical transformer pole posing fire hazard near residential area.,Open,21
+GRV-2026019,Electricity & Power,Ward 2 (Civil Lines),2026-07-09,Sparking electrical transformer pole posing fire hazard near residential area.,In Progress,2.0
+GRV-2026020,Electricity & Power,Ward 4 (Indiranagar),2026-07-24,Sparking electrical transformer pole posing fire hazard near residential area.,Resolved,2.0
+GRV-2026021,Water & Sanitation,Ward 9 (Industrial Area),2026-07-27,"Borewell pump broken near community park, residents stranded without water.",Open,15
+GRV-2026022,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-06,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,In Progress,9.2
+GRV-2026023,Roads & Infrastructure,Ward 12 (Central Market),2026-07-18,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,In Progress,14.0
+GRV-2026024,Waste & Sanitation,Ward 21 (West Suburbs),2026-07-21,Open dumping of hotel food waste on empty plot creating health hazard.,In Progress,3.0
+GRV-2026025,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-17,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,Open,23
+GRV-2026026,Roads & Infrastructure,Ward 8 (Station Road),2026-07-17,"Street asphalt peeled off near bridge junction, needs immediate tarring.",Open,7
+GRV-2026027,Water & Sanitation,Ward 12 (Central Market),2026-07-18,Illegal water pipeline connection causing pressure drop across sector 4.,In Progress,3.2
+GRV-2026028,Waste & Sanitation,Ward 12 (Central Market),2026-07-23,Open dumping of hotel food waste on empty plot creating health hazard.,Open,22
+GRV-2026029,Electricity & Power,Ward 2 (Civil Lines),2026-07-05,Incorrect high billing amount issued due to faulty digital electricity meter.,Resolved,2.1
+GRV-2026030,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-30,City bus route 45 consistently running 40 minutes late during morning peak hours.,Resolved,5.5
+GRV-2026031,Waste & Sanitation,Ward 15 (North Extension),2026-07-09,Door-to-door waste collection truck has not visited ward 8 since Monday.,Resolved,5.6
+GRV-2026032,Waste & Sanitation,Ward 15 (North Extension),2026-07-27,Open dumping of hotel food waste on empty plot creating health hazard.,In Progress,12.5
+GRV-2026033,Water & Sanitation,Ward 15 (North Extension),2026-07-17,Contaminated drinking water with brown sediment coming out of tap in household.,In Progress,10.0
+GRV-2026034,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-08,Road construction work left abandoned without warning barricades or signs.,Pending Inspection,5
+GRV-2026035,Public Transport & Traffic,Ward 15 (North Extension),2026-07-23,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,1.5
+GRV-2026036,Water & Sanitation,Ward 12 (Central Market),2026-07-23,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Open,22
+GRV-2026037,Waste & Sanitation,Ward 9 (Industrial Area),2026-07-04,Public park littered with plastic bags and waste due to missing trash cans.,Open,21
+GRV-2026038,Roads & Infrastructure,Ward 8 (Station Road),2026-07-23,Road construction work left abandoned without warning barricades or signs.,In Progress,3.5
+GRV-2026039,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-23,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,4.5
+GRV-2026040,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-24,"Street asphalt peeled off near bridge junction, needs immediate tarring.",In Progress,9.4
+GRV-2026041,Roads & Infrastructure,Ward 15 (North Extension),2026-07-03,Damaged traffic light junction box causing signal blackout during peak hours.,Resolved,10.8
+GRV-2026042,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-12,Public park littered with plastic bags and waste due to missing trash cans.,Resolved,7.7
+GRV-2026043,Public Transport & Traffic,Ward 12 (Central Market),2026-07-18,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,5.0
+GRV-2026044,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-12,Incorrect high billing amount issued due to faulty digital electricity meter.,Open,8
+GRV-2026045,Public Transport & Traffic,Ward 12 (Central Market),2026-07-23,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,8.9
+GRV-2026046,Roads & Infrastructure,Ward 8 (Station Road),2026-07-21,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,Resolved,9.6
+GRV-2026047,Electricity & Power,Ward 8 (Station Road),2026-07-21,Hanging low overhead power line near school gate needs immediate tightening.,Pending Inspection,11
+GRV-2026048,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-01,Open dumping of hotel food waste on empty plot creating health hazard.,Pending Inspection,5
+GRV-2026049,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-27,Overcrowding and insufficient bus frequency during evening office rush hours.,Pending Inspection,9
+GRV-2026050,Water & Sanitation,Ward 18 (Lakeview Colony),2026-07-26,Severe water pipe leakage near main market causing street flooding and low pressure.,Pending Inspection,12
+GRV-2026051,Water & Sanitation,Ward 2 (Civil Lines),2026-07-17,"Borewell pump broken near community park, residents stranded without water.",Resolved,10.5
+GRV-2026052,Water & Sanitation,Ward 2 (Civil Lines),2026-07-07,"Borewell pump broken near community park, residents stranded without water.",Open,20
+GRV-2026053,Roads & Infrastructure,Ward 8 (Station Road),2026-07-10,Road construction work left abandoned without warning barricades or signs.,In Progress,8.9
+GRV-2026054,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-08,Auto-rickshaws charging extra fare and refusing meter near railway station.,Pending Inspection,20
+GRV-2026055,Roads & Infrastructure,Ward 4 (Indiranagar),2026-07-12,"Street asphalt peeled off near bridge junction, needs immediate tarring.",Pending Inspection,16
+GRV-2026056,Public Transport & Traffic,Ward 8 (Station Road),2026-07-06,Overcrowding and insufficient bus frequency during evening office rush hours.,Resolved,1.6
+GRV-2026057,Electricity & Power,Ward 12 (Central Market),2026-07-28,High voltage fluctuation damaging home electrical appliances in neighborhood.,Resolved,9.0
+GRV-2026058,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-27,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,12.3
+GRV-2026059,Roads & Infrastructure,Ward 12 (Central Market),2026-07-29,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,Open,15
+GRV-2026060,Electricity & Power,Ward 12 (Central Market),2026-07-09,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,12.5
+GRV-2026061,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-23,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Open,11
+GRV-2026062,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-11,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,18
+GRV-2026063,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-11,Auto-rickshaws charging extra fare and refusing meter near railway station.,Open,8
+GRV-2026064,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-01,Public park littered with plastic bags and waste due to missing trash cans.,Resolved,2.9
+GRV-2026065,Roads & Infrastructure,Ward 15 (North Extension),2026-07-31,Road construction work left abandoned without warning barricades or signs.,Open,21
+GRV-2026066,Electricity & Power,Ward 9 (Industrial Area),2026-07-08,Streetlights not functioning on 5th Main street for past two weeks.,Resolved,12.4
+GRV-2026067,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-07,Hanging low overhead power line near school gate needs immediate tightening.,Open,22
+GRV-2026068,Waste & Sanitation,Ward 21 (West Suburbs),2026-07-03,Door-to-door waste collection truck has not visited ward 8 since Monday.,In Progress,2.7
+GRV-2026069,Waste & Sanitation,Ward 15 (North Extension),2026-07-28,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,In Progress,2.0
+GRV-2026070,Water & Sanitation,Ward 15 (North Extension),2026-07-03,No water supply for last 3 days in Ward 12 residential block.,In Progress,2.4
+GRV-2026071,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-17,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,11.8
+GRV-2026072,Public Transport & Traffic,Ward 15 (North Extension),2026-07-04,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,11.2
+GRV-2026073,Public Transport & Traffic,Ward 12 (Central Market),2026-07-14,Bus stop shelter roof broken causing passengers to stand in heavy rain.,In Progress,8.3
+GRV-2026074,Waste & Sanitation,Ward 12 (Central Market),2026-07-05,Door-to-door waste collection truck has not visited ward 8 since Monday.,Open,7
+GRV-2026075,Electricity & Power,Ward 9 (Industrial Area),2026-07-14,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,14.0
+GRV-2026076,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-10,High voltage fluctuation damaging home electrical appliances in neighborhood.,Resolved,8.7
+GRV-2026077,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-05,Open dumping of hotel food waste on empty plot creating health hazard.,Resolved,3.0
+GRV-2026078,Roads & Infrastructure,Ward 12 (Central Market),2026-07-30,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,In Progress,6.1
+GRV-2026079,Public Transport & Traffic,Ward 12 (Central Market),2026-07-14,City bus route 45 consistently running 40 minutes late during morning peak hours.,Pending Inspection,17
+GRV-2026080,Public Transport & Traffic,Ward 15 (North Extension),2026-07-08,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,10.9
+GRV-2026081,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-27,Public park littered with plastic bags and waste due to missing trash cans.,Pending Inspection,11
+GRV-2026082,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-19,"Street asphalt peeled off near bridge junction, needs immediate tarring.",Open,16
+GRV-2026083,Public Transport & Traffic,Ward 8 (Station Road),2026-07-09,City bus route 45 consistently running 40 minutes late during morning peak hours.,Open,25
+GRV-2026084,Waste & Sanitation,Ward 21 (West Suburbs),2026-07-10,Sanitation workers sweeping dirt directly into open storm water drains.,Open,5
+GRV-2026085,Public Transport & Traffic,Ward 8 (Station Road),2026-07-05,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,12.2
+GRV-2026086,Waste & Sanitation,Ward 15 (North Extension),2026-07-11,Sanitation workers sweeping dirt directly into open storm water drains.,Open,14
+GRV-2026087,Electricity & Power,Ward 9 (Industrial Area),2026-07-23,High voltage fluctuation damaging home electrical appliances in neighborhood.,Pending Inspection,25
+GRV-2026088,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-31,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,11.6
+GRV-2026089,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-23,Open dumping of hotel food waste on empty plot creating health hazard.,Pending Inspection,12
+GRV-2026090,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-07,Auto-rickshaws charging extra fare and refusing meter near railway station.,Open,7
+GRV-2026091,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-01,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,In Progress,7.5
+GRV-2026092,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-16,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,11.4
+GRV-2026093,Public Transport & Traffic,Ward 2 (Civil Lines),2026-07-18,Auto-rickshaws charging extra fare and refusing meter near railway station.,Open,8
+GRV-2026094,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-11,Damaged traffic light junction box causing signal blackout during peak hours.,In Progress,7.4
+GRV-2026095,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-27,City bus route 45 consistently running 40 minutes late during morning peak hours.,Open,17
+GRV-2026096,Water & Sanitation,Ward 4 (Indiranagar),2026-07-13,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Resolved,8.5
+GRV-2026097,Electricity & Power,Ward 2 (Civil Lines),2026-07-08,Sparking electrical transformer pole posing fire hazard near residential area.,Resolved,12.8
+GRV-2026098,Waste & Sanitation,Ward 8 (Station Road),2026-07-04,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Open,15
+GRV-2026099,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-12,Sanitation workers sweeping dirt directly into open storm water drains.,Open,22
+GRV-2026100,Waste & Sanitation,Ward 21 (West Suburbs),2026-07-09,Public park littered with plastic bags and waste due to missing trash cans.,In Progress,1.9
+GRV-2026101,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-29,Bus stop shelter roof broken causing passengers to stand in heavy rain.,In Progress,4.3
+GRV-2026102,Public Transport & Traffic,Ward 2 (Civil Lines),2026-07-17,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,13.1
+GRV-2026103,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-23,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Open,17
+GRV-2026104,Water & Sanitation,Ward 18 (Lakeview Colony),2026-07-10,No water supply for last 3 days in Ward 12 residential block.,Open,9
+GRV-2026105,Roads & Infrastructure,Ward 8 (Station Road),2026-07-25,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,Open,11
+GRV-2026106,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-09,Door-to-door waste collection truck has not visited ward 8 since Monday.,Resolved,3.2
+GRV-2026107,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-01,Hanging low overhead power line near school gate needs immediate tightening.,In Progress,5.2
+GRV-2026108,Water & Sanitation,Ward 2 (Civil Lines),2026-07-07,No water supply for last 3 days in Ward 12 residential block.,Pending Inspection,7
+GRV-2026109,Water & Sanitation,Ward 4 (Indiranagar),2026-07-17,Illegal water pipeline connection causing pressure drop across sector 4.,In Progress,6.8
+GRV-2026110,Public Transport & Traffic,Ward 12 (Central Market),2026-07-09,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Open,23
+GRV-2026111,Water & Sanitation,Ward 15 (North Extension),2026-07-29,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Open,24
+GRV-2026112,Public Transport & Traffic,Ward 2 (Civil Lines),2026-07-19,City bus route 45 consistently running 40 minutes late during morning peak hours.,Resolved,11.0
+GRV-2026113,Electricity & Power,Ward 8 (Station Road),2026-07-01,High voltage fluctuation damaging home electrical appliances in neighborhood.,Resolved,6.9
+GRV-2026114,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-04,Open dumping of hotel food waste on empty plot creating health hazard.,Open,13
+GRV-2026115,Water & Sanitation,Ward 2 (Civil Lines),2026-07-20,No water supply for last 3 days in Ward 12 residential block.,In Progress,2.5
+GRV-2026116,Water & Sanitation,Ward 21 (West Suburbs),2026-07-04,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Open,21
+GRV-2026117,Electricity & Power,Ward 8 (Station Road),2026-07-15,Incorrect high billing amount issued due to faulty digital electricity meter.,Resolved,12.9
+GRV-2026118,Roads & Infrastructure,Ward 15 (North Extension),2026-07-28,Broken concrete footpath near metro station creating risk for pedestrian injury.,Resolved,11.4
+GRV-2026119,Water & Sanitation,Ward 21 (West Suburbs),2026-07-20,Contaminated drinking water with brown sediment coming out of tap in household.,In Progress,9.6
+GRV-2026120,Waste & Sanitation,Ward 12 (Central Market),2026-07-16,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,7.0
+GRV-2026121,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-03,Streetlights not functioning on 5th Main street for past two weeks.,Open,24
+GRV-2026122,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-28,Auto-rickshaws charging extra fare and refusing meter near railway station.,Open,14
+GRV-2026123,Roads & Infrastructure,Ward 4 (Indiranagar),2026-07-21,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,Resolved,6.1
+GRV-2026124,Roads & Infrastructure,Ward 12 (Central Market),2026-07-22,Damaged traffic light junction box causing signal blackout during peak hours.,Resolved,13.8
+GRV-2026125,Waste & Sanitation,Ward 12 (Central Market),2026-07-21,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,In Progress,13.8
+GRV-2026126,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-04,Open dumping of hotel food waste on empty plot creating health hazard.,Open,14
+GRV-2026127,Electricity & Power,Ward 2 (Civil Lines),2026-07-30,Sparking electrical transformer pole posing fire hazard near residential area.,Open,8
+GRV-2026128,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-15,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,Open,15
+GRV-2026129,Waste & Sanitation,Ward 9 (Industrial Area),2026-07-25,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,2.1
+GRV-2026130,Electricity & Power,Ward 8 (Station Road),2026-07-16,Incorrect high billing amount issued due to faulty digital electricity meter.,Open,20
+GRV-2026131,Public Transport & Traffic,Ward 12 (Central Market),2026-07-08,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Open,22
+GRV-2026132,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-28,Public park littered with plastic bags and waste due to missing trash cans.,Open,11
+GRV-2026133,Electricity & Power,Ward 12 (Central Market),2026-07-01,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,5.6
+GRV-2026134,Waste & Sanitation,Ward 21 (West Suburbs),2026-07-07,Open dumping of hotel food waste on empty plot creating health hazard.,Open,15
+GRV-2026135,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-30,Door-to-door waste collection truck has not visited ward 8 since Monday.,Resolved,9.7
+GRV-2026136,Electricity & Power,Ward 9 (Industrial Area),2026-07-16,High voltage fluctuation damaging home electrical appliances in neighborhood.,Open,18
+GRV-2026137,Water & Sanitation,Ward 18 (Lakeview Colony),2026-07-13,Illegal water pipeline connection causing pressure drop across sector 4.,In Progress,13.3
+GRV-2026138,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-23,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,In Progress,12.2
+GRV-2026139,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-31,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,3.0
+GRV-2026140,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-12,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Resolved,12.3
+GRV-2026141,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-09,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,4.3
+GRV-2026142,Electricity & Power,Ward 4 (Indiranagar),2026-07-11,Sparking electrical transformer pole posing fire hazard near residential area.,Pending Inspection,10
+GRV-2026143,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-18,Open dumping of hotel food waste on empty plot creating health hazard.,In Progress,6.3
+GRV-2026144,Water & Sanitation,Ward 12 (Central Market),2026-07-31,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,In Progress,11.4
+GRV-2026145,Water & Sanitation,Ward 9 (Industrial Area),2026-07-02,Illegal water pipeline connection causing pressure drop across sector 4.,Resolved,4.1
+GRV-2026146,Water & Sanitation,Ward 15 (North Extension),2026-07-02,Illegal water pipeline connection causing pressure drop across sector 4.,Resolved,12.7
+GRV-2026147,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-03,Hanging low overhead power line near school gate needs immediate tightening.,Pending Inspection,24
+GRV-2026148,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-31,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,Resolved,2.8
+GRV-2026149,Water & Sanitation,Ward 12 (Central Market),2026-07-09,"Borewell pump broken near community park, residents stranded without water.",Open,6
+GRV-2026150,Waste & Sanitation,Ward 4 (Indiranagar),2026-07-09,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,7.2
+GRV-2026151,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-08,Bus stop shelter roof broken causing passengers to stand in heavy rain.,In Progress,2.5
+GRV-2026152,Electricity & Power,Ward 4 (Indiranagar),2026-07-31,Sparking electrical transformer pole posing fire hazard near residential area.,Open,11
+GRV-2026153,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-01,Road construction work left abandoned without warning barricades or signs.,Resolved,9.1
+GRV-2026154,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-19,Hanging low overhead power line near school gate needs immediate tightening.,In Progress,4.4
+GRV-2026155,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-14,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,13.4
+GRV-2026156,Water & Sanitation,Ward 4 (Indiranagar),2026-07-15,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Resolved,9.5
+GRV-2026157,Electricity & Power,Ward 4 (Indiranagar),2026-07-14,Frequent unannounced power cuts during night hours lasting 4-5 hours.,In Progress,5.5
+GRV-2026158,Waste & Sanitation,Ward 8 (Station Road),2026-07-29,Open dumping of hotel food waste on empty plot creating health hazard.,Resolved,2.7
+GRV-2026159,Electricity & Power,Ward 4 (Indiranagar),2026-07-28,High voltage fluctuation damaging home electrical appliances in neighborhood.,In Progress,2.9
+GRV-2026160,Public Transport & Traffic,Ward 8 (Station Road),2026-07-31,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,8.3
+GRV-2026161,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-09,Road construction work left abandoned without warning barricades or signs.,Pending Inspection,20
+GRV-2026162,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-15,Public park littered with plastic bags and waste due to missing trash cans.,In Progress,7.3
+GRV-2026163,Electricity & Power,Ward 21 (West Suburbs),2026-07-21,Sparking electrical transformer pole posing fire hazard near residential area.,In Progress,8.9
+GRV-2026164,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-14,Overcrowding and insufficient bus frequency during evening office rush hours.,Resolved,11.7
+GRV-2026165,Water & Sanitation,Ward 21 (West Suburbs),2026-07-12,Illegal water pipeline connection causing pressure drop across sector 4.,Open,23
+GRV-2026166,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-24,Unpaved dirt road causing massive dust pollution and difficulty for school buses.,Resolved,7.1
+GRV-2026167,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-11,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Resolved,2.1
+GRV-2026168,Water & Sanitation,Ward 21 (West Suburbs),2026-07-07,Severe water pipe leakage near main market causing street flooding and low pressure.,In Progress,5.6
+GRV-2026169,Electricity & Power,Ward 15 (North Extension),2026-07-19,Frequent unannounced power cuts during night hours lasting 4-5 hours.,Pending Inspection,13
+GRV-2026170,Waste & Sanitation,Ward 12 (Central Market),2026-07-13,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Open,12
+GRV-2026171,Electricity & Power,Ward 8 (Station Road),2026-07-11,Streetlights not functioning on 5th Main street for past two weeks.,Resolved,8.5
+GRV-2026172,Electricity & Power,Ward 12 (Central Market),2026-07-29,Sparking electrical transformer pole posing fire hazard near residential area.,Open,5
+GRV-2026173,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-03,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,14
+GRV-2026174,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-30,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,2.1
+GRV-2026175,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-12,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,9.6
+GRV-2026176,Roads & Infrastructure,Ward 12 (Central Market),2026-07-01,Broken concrete footpath near metro station creating risk for pedestrian injury.,In Progress,11.7
+GRV-2026177,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-31,Frequent unannounced power cuts during night hours lasting 4-5 hours.,Open,20
+GRV-2026178,Electricity & Power,Ward 21 (West Suburbs),2026-07-20,Streetlights not functioning on 5th Main street for past two weeks.,In Progress,12.7
+GRV-2026179,Roads & Infrastructure,Ward 15 (North Extension),2026-07-20,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,14
+GRV-2026180,Waste & Sanitation,Ward 9 (Industrial Area),2026-07-22,Door-to-door waste collection truck has not visited ward 8 since Monday.,Open,22
+GRV-2026181,Roads & Infrastructure,Ward 8 (Station Road),2026-07-24,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,8
+GRV-2026182,Roads & Infrastructure,Ward 4 (Indiranagar),2026-07-27,Broken concrete footpath near metro station creating risk for pedestrian injury.,Pending Inspection,10
+GRV-2026183,Roads & Infrastructure,Ward 12 (Central Market),2026-07-06,Road construction work left abandoned without warning barricades or signs.,In Progress,11.3
+GRV-2026184,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-22,"Street asphalt peeled off near bridge junction, needs immediate tarring.",Resolved,4.0
+GRV-2026185,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-19,Sanitation workers sweeping dirt directly into open storm water drains.,Resolved,10.2
+GRV-2026186,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-28,Overcrowding and insufficient bus frequency during evening office rush hours.,Open,13
+GRV-2026187,Water & Sanitation,Ward 8 (Station Road),2026-07-02,No water supply for last 3 days in Ward 12 residential block.,Open,11
+GRV-2026188,Electricity & Power,Ward 21 (West Suburbs),2026-07-18,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,13.4
+GRV-2026189,Water & Sanitation,Ward 18 (Lakeview Colony),2026-07-27,Illegal water pipeline connection causing pressure drop across sector 4.,Open,20
+GRV-2026190,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-03,Road construction work left abandoned without warning barricades or signs.,Open,11
+GRV-2026191,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-18,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,In Progress,9.7
+GRV-2026192,Water & Sanitation,Ward 8 (Station Road),2026-07-30,No water supply for last 3 days in Ward 12 residential block.,In Progress,11.9
+GRV-2026193,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-27,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Open,10
+GRV-2026194,Water & Sanitation,Ward 9 (Industrial Area),2026-07-26,Drainage overflow on main road resulting in stagnant dirty water and foul smell.,Resolved,13.6
+GRV-2026195,Waste & Sanitation,Ward 2 (Civil Lines),2026-07-30,Public park littered with plastic bags and waste due to missing trash cans.,Resolved,6.3
+GRV-2026196,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-03,Damaged traffic light junction box causing signal blackout during peak hours.,In Progress,7.1
+GRV-2026197,Roads & Infrastructure,Ward 21 (West Suburbs),2026-07-10,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,14
+GRV-2026198,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-04,Auto-rickshaws charging extra fare and refusing meter near railway station.,Resolved,11.6
+GRV-2026199,Roads & Infrastructure,Ward 4 (Indiranagar),2026-07-02,Broken concrete footpath near metro station creating risk for pedestrian injury.,Resolved,7.5
+GRV-2026200,Water & Sanitation,Ward 8 (Station Road),2026-07-14,Severe water pipe leakage near main market causing street flooding and low pressure.,Open,17
+GRV-2026201,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-05,Overcrowding and insufficient bus frequency during evening office rush hours.,Open,20
+GRV-2026202,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-04,Door-to-door waste collection truck has not visited ward 8 since Monday.,In Progress,9.2
+GRV-2026203,Electricity & Power,Ward 15 (North Extension),2026-07-18,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,13.3
+GRV-2026204,Public Transport & Traffic,Ward 4 (Indiranagar),2026-07-02,Overcrowding and insufficient bus frequency during evening office rush hours.,Resolved,3.4
+GRV-2026205,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-16,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,In Progress,6.0
+GRV-2026206,Public Transport & Traffic,Ward 15 (North Extension),2026-07-13,Auto-rickshaws charging extra fare and refusing meter near railway station.,Open,24
+GRV-2026207,Electricity & Power,Ward 2 (Civil Lines),2026-07-22,Incorrect high billing amount issued due to faulty digital electricity meter.,Open,19
+GRV-2026208,Waste & Sanitation,Ward 18 (Lakeview Colony),2026-07-09,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Pending Inspection,22
+GRV-2026209,Water & Sanitation,Ward 21 (West Suburbs),2026-07-14,Severe water pipe leakage near main market causing street flooding and low pressure.,Open,24
+GRV-2026210,Electricity & Power,Ward 8 (Station Road),2026-07-10,Frequent unannounced power cuts during night hours lasting 4-5 hours.,In Progress,5.6
+GRV-2026211,Water & Sanitation,Ward 12 (Central Market),2026-07-16,Contaminated drinking water with brown sediment coming out of tap in household.,Open,14
+GRV-2026212,Roads & Infrastructure,Ward 8 (Station Road),2026-07-29,Road construction work left abandoned without warning barricades or signs.,Open,20
+GRV-2026213,Water & Sanitation,Ward 21 (West Suburbs),2026-07-27,Illegal water pipeline connection causing pressure drop across sector 4.,Resolved,10.8
+GRV-2026214,Waste & Sanitation,Ward 15 (North Extension),2026-07-15,Sanitation workers sweeping dirt directly into open storm water drains.,In Progress,6.1
+GRV-2026215,Electricity & Power,Ward 15 (North Extension),2026-07-05,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,2.9
+GRV-2026216,Public Transport & Traffic,Ward 8 (Station Road),2026-07-15,City bus route 45 consistently running 40 minutes late during morning peak hours.,In Progress,2.8
+GRV-2026217,Electricity & Power,Ward 4 (Indiranagar),2026-07-09,Incorrect high billing amount issued due to faulty digital electricity meter.,Pending Inspection,15
+GRV-2026218,Water & Sanitation,Ward 8 (Station Road),2026-07-09,Illegal water pipeline connection causing pressure drop across sector 4.,Resolved,2.7
+GRV-2026219,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-01,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,Open,10
+GRV-2026220,Electricity & Power,Ward 15 (North Extension),2026-07-14,Incorrect high billing amount issued due to faulty digital electricity meter.,In Progress,5.2
+GRV-2026221,Water & Sanitation,Ward 15 (North Extension),2026-07-09,Illegal water pipeline connection causing pressure drop across sector 4.,Open,20
+GRV-2026222,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-08,"Street asphalt peeled off near bridge junction, needs immediate tarring.",In Progress,3.5
+GRV-2026223,Electricity & Power,Ward 8 (Station Road),2026-07-17,Frequent unannounced power cuts during night hours lasting 4-5 hours.,Resolved,1.6
+GRV-2026224,Electricity & Power,Ward 15 (North Extension),2026-07-07,Sparking electrical transformer pole posing fire hazard near residential area.,In Progress,13.1
+GRV-2026225,Electricity & Power,Ward 21 (West Suburbs),2026-07-07,Streetlights not functioning on 5th Main street for past two weeks.,Open,25
+GRV-2026226,Roads & Infrastructure,Ward 12 (Central Market),2026-07-06,"Street asphalt peeled off near bridge junction, needs immediate tarring.",Resolved,8.8
+GRV-2026227,Electricity & Power,Ward 4 (Indiranagar),2026-07-24,Frequent unannounced power cuts during night hours lasting 4-5 hours.,Open,12
+GRV-2026228,Water & Sanitation,Ward 21 (West Suburbs),2026-07-07,"Borewell pump broken near community park, residents stranded without water.",Open,16
+GRV-2026229,Electricity & Power,Ward 18 (Lakeview Colony),2026-07-03,Hanging low overhead power line near school gate needs immediate tightening.,Resolved,10.0
+GRV-2026230,Electricity & Power,Ward 21 (West Suburbs),2026-07-15,High voltage fluctuation damaging home electrical appliances in neighborhood.,In Progress,5.0
+GRV-2026231,Water & Sanitation,Ward 21 (West Suburbs),2026-07-02,"Borewell pump broken near community park, residents stranded without water.",Open,14
+GRV-2026232,Roads & Infrastructure,Ward 2 (Civil Lines),2026-07-22,Road construction work left abandoned without warning barricades or signs.,Open,17
+GRV-2026233,Public Transport & Traffic,Ward 15 (North Extension),2026-07-29,Bus stop shelter roof broken causing passengers to stand in heavy rain.,In Progress,6.4
+GRV-2026234,Waste & Sanitation,Ward 15 (North Extension),2026-07-20,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Open,24
+GRV-2026235,Electricity & Power,Ward 2 (Civil Lines),2026-07-31,Sparking electrical transformer pole posing fire hazard near residential area.,In Progress,13.3
+GRV-2026236,Public Transport & Traffic,Ward 18 (Lakeview Colony),2026-07-15,Overcrowding and insufficient bus frequency during evening office rush hours.,In Progress,11.3
+GRV-2026237,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-22,Dangerous deep potholes on MG Road post-monsoon causing vehicle damage and traffic congestion.,Open,19
+GRV-2026238,Electricity & Power,Ward 15 (North Extension),2026-07-18,Hanging low overhead power line near school gate needs immediate tightening.,Open,21
+GRV-2026239,Roads & Infrastructure,Ward 18 (Lakeview Colony),2026-07-17,Broken concrete footpath near metro station creating risk for pedestrian injury.,Open,13
+GRV-2026240,Water & Sanitation,Ward 9 (Industrial Area),2026-07-26,Illegal water pipeline connection causing pressure drop across sector 4.,In Progress,5.4
+GRV-2026241,Roads & Infrastructure,Ward 8 (Station Road),2026-07-10,"Street asphalt peeled off near bridge junction, needs immediate tarring.",In Progress,2.4
+GRV-2026242,Waste & Sanitation,Ward 15 (North Extension),2026-07-31,Door-to-door waste collection truck has not visited ward 8 since Monday.,Open,25
+GRV-2026243,Public Transport & Traffic,Ward 21 (West Suburbs),2026-07-26,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Resolved,10.5
+GRV-2026244,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-13,"Street asphalt peeled off near bridge junction, needs immediate tarring.",In Progress,11.9
+GRV-2026245,Waste & Sanitation,Ward 9 (Industrial Area),2026-07-09,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,In Progress,13.9
+GRV-2026246,Roads & Infrastructure,Ward 9 (Industrial Area),2026-07-13,"Street asphalt peeled off near bridge junction, needs immediate tarring.",In Progress,11.2
+GRV-2026247,Electricity & Power,Ward 2 (Civil Lines),2026-07-20,Frequent unannounced power cuts during night hours lasting 4-5 hours.,Pending Inspection,12
+GRV-2026248,Public Transport & Traffic,Ward 12 (Central Market),2026-07-05,Auto-rickshaws charging extra fare and refusing meter near railway station.,In Progress,3.7
+GRV-2026249,Public Transport & Traffic,Ward 9 (Industrial Area),2026-07-21,Bus stop shelter roof broken causing passengers to stand in heavy rain.,Resolved,6.2
+GRV-2026250,Waste & Sanitation,Ward 8 (Station Road),2026-07-28,Unattended garbage bin overflowing for 5 days attracting stray dogs and flies.,Open,8

@@ -37,7 +37,12 @@ export const useAppStore = create<AppState>()(
       toggleSidebar: () => set((state) => ({ isSidebarCollapsed: !state.isSidebarCollapsed })),
       setMobileSidebar: (isOpen) => set({ isMobileSidebarOpen: isOpen }),
       setUser: (user) => set({ user, isAuthenticated: !!user }),
-      clearUser: () => set({ user: null, isAuthenticated: false }),
+      clearUser: () => {
+        localStorage.removeItem('jm_authenticated');
+        localStorage.removeItem('jm_user');
+        set({ user: null, isAuthenticated: false });
+        window.location.href = '/login';
+      },
       setNotifications: (count) => set({ notifications: count }),
     }),
     {

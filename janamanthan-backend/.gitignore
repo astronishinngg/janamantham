@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Uploads & Generated Reports (runtime data)
+uploads/
+reports/
+
+# Static build output (generated from frontend)
+static/
+
+# IDE
+.idea/
+.vscode/
+*.swp

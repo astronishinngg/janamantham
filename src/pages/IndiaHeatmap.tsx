@@ -38,12 +38,30 @@ interface StateData {
 
 const stateGeoData: StateData[] = [
   { id: 'MH', name: 'Maharashtra', coords: [19.7515, 75.7139], complaints: 14520, recurring: 9800, riskScore: 88, riskLevel: 'Critical', topDept: 'Agriculture (PM-KISAN)', topCategory: 'Scheme Disbursement', radius: 24, color: '#ef4444' },
-  { id: 'UP', name: 'Uttar Pradesh', coords: [26.8467, 80.9462], complaints: 12400, recurring: 7200, riskScore: 76, riskLevel: 'High', topDept: 'Agriculture', topCategory: 'Fund Delay', radius: 20, color: '#F57C00' },
+  { id: 'UP', name: 'Uttar Pradesh', coords: [26.8467, 80.9462], complaints: 12400, recurring: 7200, riskScore: 76, riskLevel: 'High', topDept: 'Agriculture', topCategory: 'Fund Delay', radius: 22, color: '#F57C00' },
   { id: 'GJ', name: 'Gujarat', coords: [22.2587, 71.1924], complaints: 8100, recurring: 6500, riskScore: 82, riskLevel: 'High', topDept: 'Banking & Finance', topCategory: 'Financial Fraud', radius: 18, color: '#F57C00' },
   { id: 'KA', name: 'Karnataka', coords: [15.3173, 75.7139], complaints: 5200, recurring: 2100, riskScore: 45, riskLevel: 'Moderate', topDept: 'Telecom', topCategory: 'Service Outage', radius: 14, color: '#eab308' },
-  { id: 'BR', name: 'Bihar', coords: [25.0961, 85.3131], complaints: 4800, recurring: 1900, riskScore: 52, riskLevel: 'Moderate', topDept: 'Railways', topCategory: 'Infrastructure', radius: 12, color: '#eab308' },
-  { id: 'DL', name: 'Delhi', coords: [28.7041, 77.1025], complaints: 9200, recurring: 7800, riskScore: 91, riskLevel: 'Critical', topDept: 'Municipal', topCategory: 'Sanitation', radius: 22, color: '#ef4444' },
+  { id: 'BR', name: 'Bihar', coords: [25.0961, 85.3131], complaints: 4800, recurring: 1900, riskScore: 52, riskLevel: 'Moderate', topDept: 'Railways', topCategory: 'Infrastructure', radius: 14, color: '#eab308' },
+  { id: 'DL', name: 'Delhi NCR', coords: [28.7041, 77.1025], complaints: 9200, recurring: 7800, riskScore: 91, riskLevel: 'Critical', topDept: 'Municipal', topCategory: 'Sanitation & Roads', radius: 20, color: '#ef4444' },
   { id: 'TN', name: 'Tamil Nadu', coords: [11.1271, 78.6569], complaints: 3100, recurring: 800, riskScore: 24, riskLevel: 'Low', topDept: 'Education', topCategory: 'Portal Issue', radius: 10, color: '#1E8E3E' },
+  { id: 'RJ', name: 'Rajasthan', coords: [27.0238, 74.2179], complaints: 7400, recurring: 4300, riskScore: 68, riskLevel: 'High', topDept: 'Water Resources', topCategory: 'Pipeline Leakage', radius: 16, color: '#F57C00' },
+  { id: 'MP', name: 'Madhya Pradesh', coords: [22.9734, 78.6569], complaints: 6800, recurring: 3900, riskScore: 62, riskLevel: 'High', topDept: 'Rural Dev', topCategory: 'PMAY Scheme', radius: 16, color: '#F57C00' },
+  { id: 'WB', name: 'West Bengal', coords: [22.9868, 87.8550], complaints: 5900, recurring: 3100, riskScore: 55, riskLevel: 'Moderate', topDept: 'Food & Supplies', topCategory: 'Ration Distribution', radius: 14, color: '#eab308' },
+  { id: 'TG', name: 'Telangana', coords: [18.1124, 79.0193], complaints: 4600, recurring: 1800, riskScore: 42, riskLevel: 'Moderate', topDept: 'Power & Electricity', topCategory: 'Billing Dispute', radius: 12, color: '#eab308' },
+  { id: 'AP', name: 'Andhra Pradesh', coords: [15.9129, 79.7400], complaints: 4200, recurring: 1500, riskScore: 38, riskLevel: 'Moderate', topDept: 'Revenue', topCategory: 'Land Records', radius: 12, color: '#eab308' },
+  { id: 'KL', name: 'Kerala', coords: [10.8505, 76.2711], complaints: 2800, recurring: 600, riskScore: 20, riskLevel: 'Low', topDept: 'Health', topCategory: 'Hospital Supply', radius: 10, color: '#1E8E3E' },
+  { id: 'PB', name: 'Punjab', coords: [31.1471, 75.3412], complaints: 3900, recurring: 1400, riskScore: 48, riskLevel: 'Moderate', topDept: 'Agriculture', topCategory: 'Fertilizer Subsidy', radius: 12, color: '#eab308' },
+  { id: 'HR', name: 'Haryana', coords: [29.0588, 76.0856], complaints: 4100, recurring: 1700, riskScore: 50, riskLevel: 'Moderate', topDept: 'Urban Local Bodies', topCategory: 'Property Tax ID', radius: 12, color: '#eab308' },
+  { id: 'OR', name: 'Odisha', coords: [20.9517, 85.0985], complaints: 3500, recurring: 1100, riskScore: 35, riskLevel: 'Low', topDept: 'Disaster Mgmt', topCategory: 'Relief Fund', radius: 10, color: '#1E8E3E' },
+  { id: 'AS', name: 'Assam', coords: [26.2006, 92.9376], complaints: 2900, recurring: 900, riskScore: 30, riskLevel: 'Low', topDept: 'Flood Relief', topCategory: 'Infrastructure Damage', radius: 10, color: '#1E8E3E' },
+  { id: 'JH', name: 'Jharkhand', coords: [23.6102, 85.2799], complaints: 3400, recurring: 1200, riskScore: 44, riskLevel: 'Moderate', topDept: 'Mining & Welfare', topCategory: 'Displacement Grants', radius: 11, color: '#eab308' },
+  { id: 'CG', name: 'Chhattisgarh', coords: [21.2787, 81.8661], complaints: 3100, recurring: 1000, riskScore: 36, riskLevel: 'Low', topDept: 'Forest & Tribal', topCategory: 'Patta Allotment', radius: 10, color: '#1E8E3E' },
+  { id: 'UK', name: 'Uttarakhand', coords: [30.0668, 79.0193], complaints: 2200, recurring: 500, riskScore: 22, riskLevel: 'Low', topDept: 'Tourism & Roads', topCategory: 'Landslide Maintenance', radius: 9, color: '#1E8E3E' },
+  { id: 'HP', name: 'Himachal Pradesh', coords: [31.1048, 77.1734], complaints: 1800, recurring: 400, riskScore: 18, riskLevel: 'Low', topDept: 'Horticulture', topCategory: 'Apple Transport', radius: 8, color: '#1E8E3E' },
+  { id: 'JK', name: 'Jammu & Kashmir', coords: [33.7782, 76.5762], complaints: 2600, recurring: 700, riskScore: 28, riskLevel: 'Low', topDept: 'Public Works', topCategory: 'Snow Clearance', radius: 9, color: '#1E8E3E' },
+  { id: 'GA', name: 'Goa', coords: [15.2993, 74.1240], complaints: 950, recurring: 150, riskScore: 12, riskLevel: 'Low', topDept: 'Tourism', topCategory: 'Taxi Regulation', radius: 7, color: '#1E8E3E' },
+  { id: 'TR', name: 'Tripura', coords: [23.9408, 91.9882], complaints: 820, recurring: 120, riskScore: 15, riskLevel: 'Low', topDept: 'Education', topCategory: 'School Infra', radius: 7, color: '#1E8E3E' },
+  { id: 'ML', name: 'Meghalaya', coords: [25.4670, 91.3662], complaints: 710, recurring: 90, riskScore: 10, riskLevel: 'Low', topDept: 'Public Health', topCategory: 'Sub-center Access', radius: 6, color: '#1E8E3E' }
 ];
 
 const stateChartData = [
@@ -193,11 +211,10 @@ export const IndiaHeatmap: React.FC = () => {
                   click: () => setSelectedState(state),
                 }}
               >
-                <LeafletTooltip direction="top" offset={[0, -10]} opacity={1} className="custom-leaflet-tooltip">
-                  <div className="p-1 font-['Inter']">
-                    <div className="font-bold text-[#1E293B] mb-1">{state.name}</div>
-                    <div className="text-xs text-[#64748B]">Complaints: <span className="font-semibold text-[#1E293B]">{state.complaints.toLocaleString()}</span></div>
-                    <div className="text-xs text-[#64748B]">Risk Score: <span className="font-semibold text-red-600">{state.riskScore}/100</span></div>
+                <LeafletTooltip direction="top" offset={[0, -10]} opacity={0.95} permanent={true} className="custom-leaflet-tooltip">
+                  <div className="px-2 py-1 font-['Inter'] text-center">
+                    <div className="font-bold text-[#0B2E59] text-xs leading-none">{state.name}</div>
+                    <div className="text-[10px] text-[#F57C00] font-semibold mt-0.5">{state.complaints.toLocaleString()} cases</div>
                   </div>
                 </LeafletTooltip>
               </CircleMarker>
@@ -209,13 +226,13 @@ export const IndiaHeatmap: React.FC = () => {
             <h4 className="font-['Poppins'] font-bold text-[#1E293B] text-sm mb-3 border-b border-[#E2E8F0] pb-2">Complaint Density & Risk</h4>
             <div className="space-y-2.5">
               <div className="flex items-center gap-3 text-sm font-medium text-[#64748B]">
-                <span className="w-3.5 h-3.5 rounded-full bg-[#1E8E3E] border border-[#1E8E3E]/50 shadow-[0_0_8px_rgba(30,142,62,0.4)]"></span> Low / Normal
+                <span className="w-3.5 h-3.5 rounded-full bg-[#1E8E3E] border border-[#1E8E3E]/50 shadow-[0_0_8px_rgba(30,142,62,0.4)]"></span> Low / Normal Risk
               </div>
               <div className="flex items-center gap-3 text-sm font-medium text-[#64748B]">
-                <span className="w-3.5 h-3.5 rounded-full bg-[#eab308] border border-[#eab308]/50 shadow-[0_0_8px_rgba(234,179,8,0.4)]"></span> Moderate Risk
+                <span className="w-3.5 h-3.5 rounded-full bg-[#eab308] border border-[#eab308]/50 shadow-[0_0_8px_rgba(234,179,8,0.4)]"></span> Moderate Priority
               </div>
               <div className="flex items-center gap-3 text-sm font-medium text-[#64748B]">
-                <span className="w-3.5 h-3.5 rounded-full bg-[#F57C00] border border-[#F57C00]/50 shadow-[0_0_8px_rgba(245,124,0,0.4)]"></span> High Priority
+                <span className="w-3.5 h-3.5 rounded-full bg-[#F57C00] border border-[#F57C00]/50 shadow-[0_0_8px_rgba(245,124,0,0.4)]"></span> High Risk Area
               </div>
               <div className="flex items-center gap-3 text-sm font-medium text-[#64748B]">
                 <span className="w-3.5 h-3.5 rounded-full bg-[#ef4444] border border-[#ef4444]/50 shadow-[0_0_8px_rgba(239,68,68,0.4)]"></span> Critical Systemic Failure
@@ -297,7 +314,7 @@ export const IndiaHeatmap: React.FC = () => {
                     <ResponsiveContainer width="100%" height="100%">
                       <BarChart data={stateChartData}>
                         <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 10, fill: '#64748B' }} />
-                        <Tooltip cursor={{ fill: '#E2E8F0' }} contentStyle={{ borderRadius: '8px', fontSize: '12px' }} />
+                        <RechartsTooltip cursor={{ fill: '#E2E8F0' }} contentStyle={{ borderRadius: '8px', fontSize: '12px' }} />
                         <Bar dataKey="value" fill="#0B2E59" radius={[4, 4, 0, 0]} />
                       </BarChart>
                     </ResponsiveContainer>
@@ -316,7 +333,7 @@ export const IndiaHeatmap: React.FC = () => {
                           </linearGradient>
                         </defs>
                         <XAxis dataKey="day" hide />
-                        <Tooltip contentStyle={{ borderRadius: '8px', fontSize: '12px' }} />
+                        <RechartsTooltip contentStyle={{ borderRadius: '8px', fontSize: '12px' }} />
                         <Area type="monotone" dataKey="count" stroke="#F57C00" strokeWidth={2} fill="url(#colorTrend)" />
                       </AreaChart>
                     </ResponsiveContainer>
@@ -329,13 +346,30 @@ export const IndiaHeatmap: React.FC = () => {
         </AnimatePresence>
       </motion.div>
 
+      {/* STATE QUICK NAVIGATION CHIPS */}
+      <div className="flex overflow-x-auto gap-2 py-2 px-1 hide-scrollbar">
+        {stateGeoData.map((state) => (
+          <button
+            key={state.id}
+            onClick={() => setSelectedState(state)}
+            className={`whitespace-nowrap px-3 py-1.5 text-sm font-semibold rounded-lg border transition-colors ${
+              selectedState?.id === state.id 
+                ? 'bg-[#0B2E59] text-white border-[#0B2E59]' 
+                : 'bg-white text-[#0B2E59] border-[#E2E8F0] hover:bg-[#F8FAFC] hover:border-[#0B2E59]'
+            }`}
+          >
+            {state.name}
+          </button>
+        ))}
+      </div>
+
       {/* 4. REGIONAL OVERVIEW KPIs */}
       <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
         {[
-          { title: "Total Geo Volume", value: "88,400", trend: "+12%", icon: MapIcon, color: "text-[#0B2E59]" },
-          { title: "Recurring Nodes", value: "34,200", trend: "+18%", icon: Database, color: "text-[#F57C00]" },
-          { title: "Critical Regions", value: "2", trend: "Stable", icon: AlertTriangle, color: "text-red-600" },
-          { title: "States Monitored", value: "28", trend: "Active", icon: ShieldCheck, color: "text-[#1E8E3E]" },
+          { title: "Total Geo Volume", value: "108,400", trend: "+12%", icon: MapIcon, color: "text-[#0B2E59]" },
+          { title: "Recurring Nodes", value: "54,200", trend: "+18%", icon: Database, color: "text-[#F57C00]" },
+          { title: "Critical Regions", value: "3", trend: "Active", icon: AlertTriangle, color: "text-red-600" },
+          { title: "States Monitored", value: "25", trend: "Full Coverage", icon: ShieldCheck, color: "text-[#1E8E3E]" },
           { title: "Highest Risk Score", value: "94/100", trend: "Pune", icon: Crosshair, color: "text-[#ef4444]" },
           { title: "Avg AI Confidence", value: "96.4%", trend: "High", icon: BrainCircuit, color: "text-[#0B2E59]" },
         ].map((kpi, i) => (
@@ -352,6 +386,42 @@ export const IndiaHeatmap: React.FC = () => {
             </div>
           </div>
         ))}
+      </motion.div>
+
+      {/* 5. ALL INDIAN STATES & UTS MATRIX GRID */}
+      <motion.div variants={itemVariants} className="bg-white rounded-xl border border-[#E2E8F0] shadow-sm p-6">
+        <div className="flex justify-between items-center mb-6">
+          <div>
+            <h3 className="font-['Poppins'] font-bold text-[#1E293B] text-xl">All Indian States & UTs Grievance Matrix</h3>
+            <p className="text-xs text-[#64748B] mt-0.5">Live monitoring across 25 active states and union territories</p>
+          </div>
+          <span className="bg-blue-50 text-[#0B2E59] font-bold text-xs px-3 py-1.5 rounded-lg border border-blue-100">
+            25 States Active
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          {stateGeoData.map((st) => (
+            <div 
+              key={st.id} 
+              onClick={() => setSelectedState(st)}
+              className="bg-[#F8FAFC] border border-[#E2E8F0] hover:border-[#0B2E59] rounded-xl p-4 cursor-pointer transition-all hover:shadow-md group"
+            >
+              <div className="flex justify-between items-center mb-2">
+                <span className="font-bold text-[#0B2E59] group-hover:text-[#F57C00] transition-colors">{st.name}</span>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
+                  st.riskLevel === 'Critical' ? 'bg-red-100 text-red-700' :
+                  st.riskLevel === 'High' ? 'bg-orange-100 text-orange-700' :
+                  st.riskLevel === 'Moderate' ? 'bg-yellow-100 text-yellow-700' :
+                  'bg-green-100 text-green-700'
+                }`}>{st.riskLevel}</span>
+              </div>
+              <div className="text-lg font-bold text-[#1E293B] mb-1">{st.complaints.toLocaleString()} <span className="text-xs font-normal text-[#64748B]">cases</span></div>
+              <div className="text-xs text-[#64748B] truncate"><b className="text-[#334155]">Top Dept:</b> {st.topDept}</div>
+              <div className="text-xs text-[#64748B] truncate mt-0.5"><b className="text-[#334155]">Issue:</b> {st.topCategory}</div>
+            </div>
+          ))}
+        </div>
       </motion.div>
 
       {/* 5. HOTSPOT RANKING & AI GEO INSIGHTS */}

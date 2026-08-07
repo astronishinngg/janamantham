@@ -2,11 +2,13 @@
 import React, { useState } from 'react';
 import { toast } from 'react-hot-toast'; // or 'sonner' depending on your setup
 import { Loader2, ShieldAlert } from 'lucide-react';
+import { useAppStore } from '@/stores/useAppStore';
 
 export const Login: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const setUser = useAppStore((s) => s.setUser);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,6 +26,16 @@ export const Login: React.FC = () => {
           email: "janamanthan@gov.in",
           role: "Officer"
         }));
+
+        // Sync Zustand store
+        setUser({
+          id: 'gov-officer-1',
+          name: 'Government Officer',
+          role: 'Officer',
+          department: 'Administration',
+          email: 'janamanthan@gov.in',
+          avatarInitials: 'GO'
+        });
 
         // 3. Show success toast
         toast.success('Welcome to JanaManthan');

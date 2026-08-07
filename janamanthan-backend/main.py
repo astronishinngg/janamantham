@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, JSONResponse
 from config import STATIC_DIR
-from routes import upload, reports
+from routes import upload, reports, chat
 from utils.logger import logger
 import os
 
@@ -26,6 +26,7 @@ app.add_middleware(
 # Include API routers
 app.include_router(upload.router)
 app.include_router(reports.router)
+app.include_router(chat.router)
 
 # Mount Static Assets folder if it exists
 assets_dir = STATIC_DIR / "assets"

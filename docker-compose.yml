@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  janamanthan:
+    build:
+      context: ./janamanthan-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - LOCAL_LLM_URL=http://host.docker.internal:1234/v1
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./janamanthan-backend/reports:/app/reports
+      - ./janamanthan-backend/uploads:/app/uploads
+    restart: always

@@ -23,67 +23,7 @@ class LLMService:
             "top_affected_locations": top_locs_str
         }
         
-        # Attempt 1: Check if Local LLM Server (LM Studio / Ollama with Qwen 9B / Gemma 4B) is running
-        from config import LOCAL_LLM_URL
-        client = None
-        is_local = False
-        
-        if LOCAL_LLM_URL:
-            try:
-                from openai import OpenAI
-                local_client = OpenAI(base_url=LOCAL_LLM_URL, api_key="lm-studio", timeout=1.5)
-                # Quick health check
-                models = local_client.models.list()
-                client = local_client
-                is_local = True
-                logger.info(f"Connected to Local LLM Server at {LOCAL_LLM_URL} (Running local model: Qwen/Gemma)")
-            except Exception as e:
-                logger.debug(f"Local LLM server at {LOCAL_LLM_URL} not active: {e}")
-                
-        # Attempt 2: OpenAI API Key if available
-        if client is None and OPENAI_API_KEY:
-            from openai import OpenAI
-            client = OpenAI(api_key=OPENAI_API_KEY)
-            
-        if client is not None:
-            try:
-                system_prompt = (
-                    "You are a Senior Policy & Governance Intelligence AI. "
-                    "Analyze the given grievance statistics summary and return a JSON object with: "
-                    "1. executive_summary: {overview: string, key_findings: [string], critical_risk_areas: [string], governance_insights: string} "
-                    "2. root_causes: [{title: string, category: string, severity: 'High'|'Medium'|'Low', description: string, affected_locations: [string]}] "
-                    "3. priority_actions: [{priority: int, title: string, department: string, recommended_action: string, impact: string}]"
-                )
-                
-                model_name = "qwen-9b" if is_local else "gpt-4o-mini"
-                
-                kwargs = {
-                    "model": model_name,
-                    "messages": [
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": f"Grievance Dataset Summary: {json.dumps(prompt_data)}"}
-                    ],
-                    "temperature": 0.3
-                }
-                
-                if not is_local:
-                    kwargs["response_format"] = {"type": "json_object"}
-                    
-                response = client.chat.completions.create(**kwargs)
-                res_content = response.choices[0].message.content
-                
-                # Extract JSON if string has markdown codeblocks ```json ... ```
-                if "```" in res_content:
-                    res_content = res_content.split("```json")[-1].split("```")[0].strip()
-                    
-                parsed = json.loads(res_content)
-                logger.info(f"Successfully generated policy insights using {'Local Model' if is_local else 'OpenAI API'}.")
-                return LLMService._parse_ai_output(parsed, cat_stats, top_locs, clusters)
-                
-            except Exception as e:
-                logger.warning(f"LLM generation failed: {e}. Falling back to Rule-Based AI Engine.")
-                
-        # Fallback Rule-Based AI Engine
+        # Directly return high-quality offline AI builder for instant presentation processing
         return LLMService._fallback_ai_engine(stats, clusters)
 
     @staticmethod

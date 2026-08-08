@@ -46,7 +46,7 @@ class ChatService:
         if LOCAL_LLM_URL:
             try:
                 from openai import OpenAI
-                client = OpenAI(base_url=LOCAL_LLM_URL, api_key="lm-studio")
+                client = OpenAI(base_url=LOCAL_LLM_URL, api_key="lm-studio", timeout=1.0)
                 
                 # Format context string from report if available
                 context = "No active report dataset loaded."

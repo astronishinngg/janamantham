@@ -111,7 +111,7 @@ export const analyticsService = {
 
   async exportPDF(uploadId?: string) {
     if (uploadId) {
-      window.open(`http://localhost:8000/api/report/${uploadId}/pdf`, '_blank');
+      window.open(`/api/report/${uploadId}/pdf`, '_blank');
     } else {
       window.print();
     }

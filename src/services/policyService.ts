@@ -11,6 +11,6 @@ export const policyService = {
   },
 
   downloadPDF: (analysisId: string) => {
-    window.open(`http://localhost:8000/api/report/${analysisId}/pdf`, '_blank');
+    window.open(`/api/report/${analysisId}/pdf`, '_blank');
   }
 };

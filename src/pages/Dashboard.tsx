@@ -140,7 +140,7 @@ export const Dashboard: React.FC = () => {
           <p className="text-sm text-[#64748B] max-w-md mb-6">
             Upload citizen complaints, clean telemetry data, and run semantic clustering to visualize administrative risk profiles here.
           </p>
-          <Link to={ROUTES.ENGINE} className="px-6 py-3 bg-[#0B2E59] hover:bg-[#F57C00] text-white font-bold rounded-xl flex items-center gap-2 transition-all shadow-md">
+          <Link to={ROUTES.MANTHAN_ENGINE} className="px-6 py-3 bg-[#0B2E59] hover:bg-[#F57C00] text-white font-bold rounded-xl flex items-center gap-2 transition-all shadow-md">
             Go to Manthan Engine <ArrowRight className="w-4 h-4" />
           </Link>
         </motion.div>
